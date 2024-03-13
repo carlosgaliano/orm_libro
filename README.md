@@ -1,0 +1,16 @@
+**Como enlazar GIT**
+
+***…or create a new repository on the command line***
+
+echo "# orm_libro" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/carlosgaliano/orm_libro.git
+git push -u origin main
+
+***…or push an existing repository from the command line***
+git remote add origin https://github.com/carlosgaliano/orm_libro.git
+git branch -M main
+git push -u origin main
