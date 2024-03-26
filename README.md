@@ -157,7 +157,9 @@ User.objects.values_list("username", "email")
 
 > Como seleccionar campos en una consulta?
 
-- Metodos *.values()* y *.values_list()*
+- Metodos *.values()* 
+
+- .values_list()*
 
 - Metodo *.only("nomber de la columna", "nomber de la columna")*  _devuelve un diccionario_
 
