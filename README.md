@@ -34,6 +34,18 @@
 
 ***
 
+# modelo de pagina oficial
+
+[QuerySet API reference | Django documentation | Django (djangoproject.com)](https://docs.djangoproject.com/en/5.0/ref/models/querysets/)
+
+[Making queries | Django documentation | Django (djangoproject.com)](https://docs.djangoproject.com/en/5.0/topics/db/queries/#queryset-model-example)
+
+
+
+
+
+***
+
 # Enlaces
 
 [Funciones en Python](https://thedataschools.com/python/funciones/)
@@ -181,5 +193,3 @@ str(User.objects.filter(first_name__startswith="R").only('username', 'email').qu
 ```
 
 > Como hacer una expresión de subconsulta en Django?
-
-
