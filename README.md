@@ -121,6 +121,11 @@ campos = User._meta.get_fields()
 campos
 ```
 
+```python
+for i in Modelo._meta.get_fields():
+    print(i.name)
+```
+
 > ver la forma en SQL
 
 ```python
